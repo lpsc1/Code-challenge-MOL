@@ -40,7 +40,7 @@ Primeiro clone o repositório em seu computador, por meio do terminal utilizando
   # Instale as dependências da aplicação
   $ npm install # ou yarn (caso tenha instalado)
   # Inicie a aplicação web
-  $ npm start # ou yarn start (caso tenha instalado)
+  $ npm run dev # ou yarn dev (caso tenha instalado)
   # Para executar os testes unitários
   $ npm test # ou yarn test (caso tenha instalado)
 ```
