@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "jest --watch",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,6 +17,15 @@
     "next": "13.0.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "^5.3.6",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.2.0",
+    "@testing-library/user-event": "14.2.0",
+    "jest": "28.1.0",
+    "jest-environment-jsdom": "28.1.0",
+    "@types/styled-components": "^5.1.26"
   }
 }
